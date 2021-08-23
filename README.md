@@ -36,8 +36,13 @@ This demo project is implemented in Dart/Flutter.
 
 Accounts are loading in an async process after Access Token is provided.
 
-account-service-test.dart and account-test.dart files contains unit tests for project. It does not fully cover code.
-It just displays the ability of writing unit tests.
+account-service-test.dart and account-test.dart files contains unit tests for project. It does not fully cover code and
+just displays the ability of writing unit tests.
 
 screen-tests.dart file contain widget tests (UI components tests). It does not fully cover UI components and just
 displays the ability of writing widget tests.
+
+## Testing
+
+In order to test the application you need to know your Dynamics Base URI and retrieve access token manually.
+This was done to save time and to not implement OAuth2 for Dynamics.
